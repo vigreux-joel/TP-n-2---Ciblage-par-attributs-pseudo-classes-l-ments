@@ -6,51 +6,63 @@ body{
 /*------------------header------------------*/
 header {
     background-color: #061622;
-    padding: 80px 0 80px 0px;}
+    padding: 80px 0 80px 0px;
+}
 h1{
     color: #FFFFFF;
     font-size: 55px;
     max-width:  1150px;
     text-align: justify;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 /*------------------nav------------------*/
 nav {
-    border: 10px solid #F6F6F6;
+    border: 10px solid inherit;
     max-width: 1150px;
     margin: 0 auto;
-    text-align: center;}
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
 ul {
     list-style-type: none;
     border-radius: 10px;
-    display: flex;}
+    display: flex;
+
+}
 li{
-    width: 25%;}
+    width: 25%;
+}
 li a{
     display: block;
     width: 100%;
-    color: #FFFFFF;}
-
+    color: #FFFFFF;
+}
 li:nth-of-type(1){
     padding: 20px 0px 20px 0px;
     background-color: #0E1F56;
     border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;}
-
+    border-bottom-left-radius: 15px;
+}
 li:nth-of-type(2){
     padding: 20px 0px 20px 0px;
-    background-color: #E52D27;}
-
+    background-color: #E52D27;
+}
 li:nth-of-type(3){
     padding: 20px 0px 20px 0px;
-    background-color: #55ACEE;}
-
+    background-color: #55ACEE;
+}
 li:nth-of-type(4){
     padding: 20px 0px 20px 0px;
     background-color: #C13584;
     border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;}
+    border-bottom-right-radius: 15px;
+}
 li:hover{
-    background-color: #B318FF;}
+    background-color: #B318FF;
+}
 /*------------------main------------------*/
 main {
     max-width: 1150px;
@@ -58,16 +70,18 @@ main {
     position: relative;
     margin: 0 auto;}
 main a[rel="no-follow"]{
-    font-weight: 800;}
-
+    font-weight: 800;
+}
 .reseau {
-    font-weight: bold;}
+    font-weight: bold;
+}
 a {
     text-decoration: none;
-    color: #3C93F7;}
+    color: #3C93F7;
+}
 article a[href*="https://"]{
-    color: #0E1F56;}
-
+    color: #0E1F56;
+}
 h2:before{
     content:"";
     width: 5px;
@@ -75,12 +89,14 @@ h2:before{
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -30px;}
+    left: -30px;
+}
 h2{
     position: relative;
     text-align: center;
     font-size: 35px;
-    margin: 80px 0 40px 0px;}
+    margin: 80px 0 40px 0px;
+}
 h2:after{
     content:"";
     width: 5px;
@@ -88,16 +104,18 @@ h2:after{
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -30px;}
-
+    right: -30px;
+}
 main .intro{
-    margin-top: 20px;}
+    margin-top: 20px;
+}
 main img {
     width: 100%;
     height: 350px;
     border-radius: 10px;
     margin: 40px 0px 20px 0px;
-    object-fit: cover;}
+    object-fit: cover;
+}
 main article p:before{
     content:"";
     width: 3px;
@@ -105,33 +123,43 @@ main article p:before{
     position: absolute;
     top: 60px;
     bottom: 0px;
-    left: 0px;}
+    left: 0px;
+}
 main article {
     margin-top: 40px;
-    position: relative;}
+    position: relative;
+}
 h3 {
     font-size: 25px;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+}
 article p {
     margin-top: 20px;
-    padding-left: 40px;}
+    padding-left: 40px;
+}
 a:hover{
     text-decoration: underline;}
 
 article:nth-of-type(1) .reseau {
-    color:#0E1F56;}
+    color:#0E1F56;
+}
 article:nth-of-type(2) .reseau {
-    color:#E52D27;}
+    color:#E52D27;
+}
 article:nth-of-type(3) .reseau {
-    color:#55ACEE;}
+    color:#55ACEE;
+}
 article:nth-of-type(4) .reseau {
-    color:#C13584;}
+    color:#C13584;
+}
 /*------------------footer------------------*/
 footer {
     width: 100%;
     background-color: #061622;
     margin-top: 80px;
     padding: 20px 0px 20px 0px;
-    text-align: center;}
+    text-align: center;
+}
 footer p,footer a{
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
